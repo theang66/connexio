@@ -7,7 +7,7 @@ Team members:
 1. [Anh Nguyen](https://github.com/theang66)
 2. [Katia Sievert](https://github.com/ksievert)
 3. [Zain Chaudhry](https://github.com/ZainMahmoodC)
-4. Yiping Zhong
+4. [Yiping Zhong](https://github.com/YipingZhong)
 
 ## Gatsby
 
