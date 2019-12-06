@@ -18,7 +18,7 @@ This website is created with Gatsby. Click [here](https://www.gatsbyjs.org/tutor
 2. Code should be pushed to the ```dev``` branch. The ```master``` branch is only for deploying. To switch to the ```dev``` branch do ```git fetch --all``` and ```git checkout dev```.
 3. Run ```npm install``` and ```npm update```.
 4. To preview the website, run ```npx gatsby develop``` and go to [http://localhost:8000/](http://localhost:8000/).
-5. Always pull before you commit and push.
+5. Always pull before you commit and push. To push do ```git push origin dev```.
 6. Commit and push!
 
 ## Deploy
