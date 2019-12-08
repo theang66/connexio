@@ -68,6 +68,7 @@ const IndexPage = () => (
     <h1 class="tc">Reports and Presentation</h1>
     <p class="tc"><a href="https://docs.google.com/document/d/1vYLuzBvjI3ywbHjIGiuoUdng9jSnKi3kZDfq1z-rm6o/edit?usp=sharing">Assignment2 Report</a></p>
     <p class="tc"><a href="https://docs.google.com/document/d/1pLLhXRfOR837rEYpH5pdamhNvoVjwvRY2Hkzw0T07is/edit?usp=sharing">Assignment3 Report</a></p>
+    <p class="tc"><a href="https://docs.google.com/presentation/d/138iPg25G5Jp3nPtn2WD1kHlt91oS9FVWV9eFqt97VhM/edit?usp=sharing">Presentation</a></p>
     <h1 class="tc">Team Members</h1>
     <div class="flex justify-around">
     <a href="https://github.com/theang66" style={{ "text-decoration": "none", "color": "blue" }}>Anh Nguyen</a>
