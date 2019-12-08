@@ -17,6 +17,7 @@ const IndexPage = () => (
         <p>Post about your own cultural experiences using pictures, videos, or text.
         Share with other users in real-time, and include your location if you
         want your post to show up on our map.</p>
+        <img src={require(`../images/AllPosts.png`)} width="80%" height="75%"/>
         </div>
         <div class="tc pa3">
         <code>ENGAGE</code>
@@ -24,6 +25,7 @@ const IndexPage = () => (
         by creating one central calendar. Post about events happening
         in the Macalester community, and RSVP to ones
         that you're interested in.</p>
+        <img src={require(`../images/Events.png`)} width="65%" height = "75%"/>
         </div>
       </div>
     <h1 class="tc">Task 1</h1>
