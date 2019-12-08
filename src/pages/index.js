@@ -5,6 +5,7 @@ import "tachyons"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import "../components/index.css"
 
 const IndexPage = () => (
   <Layout>
@@ -44,6 +45,10 @@ const IndexPage = () => (
     <h1 class="tc">Design Process</h1>
     <div class="tc">
     <code class="b">First Paper Prototype</code>
+    <div class="carousel">
+      <img width="200px" src={require(`../images/Task1-Storyboard.jpg`)}/>
+      <img width="200px" src={require(`../images/Task1-Storyboard.jpg`)}/>
+    </div>
     </div>
     <div class="tc">
     <code class="b">Second Paper Prototype</code>
