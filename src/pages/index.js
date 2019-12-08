@@ -5,6 +5,7 @@ import "tachyons"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import "../components/index.css"
 
 const IndexPage = () => (
   <Layout>
@@ -33,6 +34,10 @@ const IndexPage = () => (
     to make it easier to find cultural events by an events tab that lists events in chronological
     order which allows students to search for events and plan ahead for their schedules.
     </p>
+    <div class = "carousel">
+        <img src={require(`../images/4 - events.png`)} class="proto_img" />
+        <img src={require(`../images/4.5 - events NEW.png`)} class="proto_img"/>
+    </div>
     <img src={require(`../images/Task1-Storyboard.jpg`)}/>
     <h1 class="tc">Task 2</h1>
     <p>
@@ -41,11 +46,20 @@ const IndexPage = () => (
     by all users of the app to share their experiences at cultural events or any other culture
     experiences that users might be having.
     </p>
+    <div class = "carousel">
+        <img src={require(`../images/3 - all posts.png`)} class="proto_img"/>
+        <img src={require(`../images/6 - map.png`)} class="proto_img"/>
+        <img src={require(`../images/3.5 posts NEW.png`)} class="proto_img"/>
+    </div>
     <img src={require(`../images/Task2-Storyboard.jpg`)}/>
     <h1 class="tc">Video Storyboard</h1>
     <h1 class="tc">Design Process</h1>
     <div class="tc">
     <code class="b">First Paper Prototype</code>
+    <div class="carousel">
+      <img width="200px" src={require(`../images/Task1-Storyboard.jpg`)}/>
+      <img width="200px" src={require(`../images/Task1-Storyboard.jpg`)}/>
+    </div>
     </div>
     <div class="tc">
     <code class="b">Second Paper Prototype</code>

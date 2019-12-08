@@ -1,0 +1,10 @@
+.carousel{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	width: 87%;
+	height: 500px;
+	white-space: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-overflow-scrolling: touch;
+}
