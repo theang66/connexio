@@ -35,10 +35,9 @@ const IndexPage = () => (
     order which allows students to search for events and plan ahead for their schedules.
     </p>
     <div class = "carousel">
-        <img src={require(`../images/4 - events.png`)} class="proto_img" />
-        <img src={require(`../images/4.5 - events NEW.png`)} class="proto_img"/>
+        <img src={require(`../images/4 - events.png`)} class="proto_img" width="45%"/>
+        <img src={require(`../images/4.5 - events NEW.png`)} class="proto_img" width="45%"/>
     </div>
-    <img src={require(`../images/Task1-Storyboard.jpg`)}/>
     <h1 class="tc">Task 2</h1>
     <p>
     The second main task we wanted to support was the creation of a feed for all cultural events
@@ -47,11 +46,10 @@ const IndexPage = () => (
     experiences that users might be having.
     </p>
     <div class = "carousel">
-        <img src={require(`../images/3 - all posts.png`)} class="proto_img"/>
-        <img src={require(`../images/6 - map.png`)} class="proto_img"/>
-        <img src={require(`../images/3.5 posts NEW.png`)} class="proto_img"/>
+        <img src={require(`../images/3 - all posts.png`)} class="proto_img" width="45%"/>
+        <img src={require(`../images/6 - map.png`)} class="proto_img" width="45%" />
+        <img src={require(`../images/3.5 posts NEW.png`)} class="proto_img" width="45%"/>
     </div>
-    <img src={require(`../images/Task2-Storyboard.jpg`)}/>
     <h1 class="tc">Video Storyboard</h1>
     <h1 class="tc">Design Process</h1>
     <div class="tc">
