@@ -12,11 +12,18 @@ const IndexPage = () => (
     <h1 class="tc">Overview</h1>
     <p class="tc">Connexio provides a platform for cultural learning on Macalester campus.</p>
       <div class="flex justify-around">
-        <div class="tc">
+        <div class="tc pa3">
         <code>SHARE</code>
+        <p>Post about your own cultural experiences using pictures, videos, or text.
+        Share with other users in real-time, and include your location if you
+        want your post to show up on our map.</p>
         </div>
-        <div class="tc">
+        <div class="tc pa3">
         <code>ENGAGE</code>
+        <p>We've made it easier for you to find information about campus cultural events
+        by creating one central calendar. Post about events happening
+        in the Macalester community, and RSVP to ones
+        that you're interested in.</p>
         </div>
       </div>
     <h1 class="tc">Task 1</h1>
@@ -68,10 +75,13 @@ const IndexPage = () => (
     <p class="tc"><a href="https://docs.google.com/document/d/1vYLuzBvjI3ywbHjIGiuoUdng9jSnKi3kZDfq1z-rm6o/edit?usp=sharing">Assignment2 Report</a></p>
     <p class="tc"><a href="https://docs.google.com/document/d/1pLLhXRfOR837rEYpH5pdamhNvoVjwvRY2Hkzw0T07is/edit?usp=sharing">Assignment3 Report</a></p>
     <h1 class="tc">Team Members</h1>
+    <div class="flex justify-around">
     <p class="tc">Anh Nguyen</p>
     <p class="tc">Katia Sievert</p>
     <p class="tc">Yiping Zhong</p>
     <p class="tc">Zain Chaudhry</p>
+    </div>
+
   </Layout>
 )
 
