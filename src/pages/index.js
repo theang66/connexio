@@ -65,6 +65,8 @@ const IndexPage = () => (
     <h1 class="tc">Design Process</h1>
 
     <h1 class="tc">Reports and Presentation</h1>
+    <p class="tc"><a href="https://docs.google.com/document/d/1vYLuzBvjI3ywbHjIGiuoUdng9jSnKi3kZDfq1z-rm6o/edit?usp=sharing">Assignment2 Report</a></p>
+    <p class="tc"><a href="https://docs.google.com/document/d/1pLLhXRfOR837rEYpH5pdamhNvoVjwvRY2Hkzw0T07is/edit?usp=sharing">Assignment3 Report</a></p>
     <h1 class="tc">Team Members</h1>
     <p class="tc">Anh Nguyen</p>
     <p class="tc">Katia Sievert</p>
