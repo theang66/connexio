@@ -1,11 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
 import "tachyons"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import "../components/index.css"
+import allPosts from "../images/AllPosts.png"
+import events from "../images/Events.png"
+import map from "../images/Map.png"
+import newPost from "../images/NewPost.png"
+import newEvent from "../images/NewEvent.png"
+import discussion from "../images/Discussion.png"
+import firstFeed from "../images/FirstFeed.png"
+import firstEvents from "../images/FirstEvents.png"
+import secondMenu from "../images/SecondMenu.png"
+import secondEvents from "../images/SecondEvents.png"
+import secondPoll from "../images/SecondPoll.png"
+import secondMap from "../images/SecondMap.png"
+import video from "../images/Video.png"
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +29,7 @@ const IndexPage = () => (
         <p>Post about your own cultural experiences using pictures, videos, or text.
         Share with other users in real-time, and include your location if you
         want your post to show up on our map.</p>
-        <img src={require(`../images/AllPosts.png`)} width="80%" height="75%"/>
+        <img src={allPosts} width="80%" height="75%"/>
         </div>
         <div class="tc pa3">
         <code class="b">ENGAGE</code>
@@ -26,55 +37,83 @@ const IndexPage = () => (
         by creating one central calendar. Post about events happening
         in the Macalester community, and RSVP to ones
         that you're interested in.</p>
-        <img src={require(`../images/Events.png`)} width="65%" height = "75%"/>
+        <img src={events} width="65%" height="75%"/>
         </div>
       </div>
-    <h1 class="tc">Task 1</h1>
-    <p> Our first task is to aggregate and share the event information among our users. We are going
-    to make it easier to find cultural events by an events tab that lists events in chronological
-    order which allows students to search for events and plan ahead for their schedules.
+    <h1 class="tc">Task 1: Post to a Feed</h1>
+    <p class="tc">
+    Post pictures, videos, and texts to share your experiences with the Macalester community. <br/>
+    Posts with location (optional) will show up on the Map.
     </p>
-    <div class = "carousel">
-        <img src={require(`../images/4 - events.png`)} class="proto_img" width="45%"/>
-        <img src={require(`../images/4.5 - events NEW.png`)} class="proto_img" width="45%"/>
+    <div class="carousel tc">
+        <img src={allPosts} class="proto_img" height="100%"/>
+        <img src={map} class="proto_img" height="100%"/>
+        <img src={newPost} class="proto_img" height="100%"/>
     </div>
-    <h1 class="tc">Task 2</h1>
-    <p>
-    The second main task we wanted to support was the creation of a feed for all cultural events
-    happening on campus. The feed would allow users to post pictures or updates to a feed accessible
-    by all users of the app to share their experiences at cultural events or any other culture
-    experiences that users might be having.
+    <h1 class="tc">Task 2: Create and view events</h1>
+    <p class="tc">
+    Events are aggregated in the Events tab and visible to the Macalester community. <br/>
+    View event details, RSVP, and create new events.
     </p>
-    <div class = "carousel">
-        <img src={require(`../images/3 - all posts.png`)} class="proto_img" width="45%"/>
-        <img src={require(`../images/6 - map.png`)} class="proto_img" width="45%" />
-        <img src={require(`../images/3.5 posts NEW.png`)} class="proto_img" width="45%"/>
+    <div class="carousel tc">
+        <img src={events} class="proto_img" height="100%"/>
+        <img src={newEvent} class="proto_img" height="100%"/>
     </div>
     <h1 class="tc">Video Storyboard</h1>
+    <div class="tc">
+    <img src={video} class="proto_img"/>
+    </div>
     <h1 class="tc">Design Process</h1>
     <div class="tc">
     <code class="b">First Paper Prototype</code>
+    <p>Our initial paper prototype consisted of two main tabs, Feed and Events.</p>
     <div class="carousel">
-      <img width="200px" src={require(`../images/Task1-Storyboard.jpg`)}/>
-      <img width="200px" src={require(`../images/Task1-Storyboard.jpg`)}/>
+        <img src={firstFeed} class="proto_img" height="95%"/>
+        <img src={firstEvents} class="proto_img" height="95%"/>
     </div>
     </div>
     <div class="tc">
     <code class="b">Second Paper Prototype</code>
+    <p>We made substantial changes to our initial paper prototype to both address design issues
+      from usability testing and differentiate the app from existing platforms like Facebook.</p>
+    <div class="carousel">
+        <img src={secondMenu} class="proto_img" height="480px"/>
+        <img src={secondEvents} class="proto_img" height="480px"/>
+        <img src={secondPoll} class="proto_img" height="480px"/>
+        <img src={secondMap} class="proto_img" height="480px"/>
+    </div>
     </div>
     <div class="tc">
     <code class="b">Digital Mockup</code>
+    <p>Our final digital mockup includes the main tabs: Home (with All Posts),
+      Events, Discussion, and Map.</p>
+    <div class="carousel">
+        <img src={allPosts} class="proto_img" height="100%"/>
+        <img src={events} class="proto_img" height="100%"/>
+        <img src={discussion} class="proto_img" height="100%"/>
+        <img src={map} class="proto_img" height="100%"/>
+    </div>
     </div>
     <h1 class="tc">Reports and Presentation</h1>
-    <p class="tc"><a href="https://docs.google.com/document/d/1vYLuzBvjI3ywbHjIGiuoUdng9jSnKi3kZDfq1z-rm6o/edit?usp=sharing">Assignment2 Report</a></p>
-    <p class="tc"><a href="https://docs.google.com/document/d/1pLLhXRfOR837rEYpH5pdamhNvoVjwvRY2Hkzw0T07is/edit?usp=sharing">Assignment3 Report</a></p>
-    <p class="tc"><a href="https://docs.google.com/presentation/d/138iPg25G5Jp3nPtn2WD1kHlt91oS9FVWV9eFqt97VhM/edit?usp=sharing">Presentation</a></p>
+    <h4 class="tc"><a style={{ "text-decoration": "none", "color": "blue" }}
+      href="https://docs.google.com/document/d/1vYLuzBvjI3ywbHjIGiuoUdng9jSnKi3kZDfq1z-rm6o/edit?usp=sharing">
+      Interviews, Task Analysis & Storyboards</a></h4>
+    <h4 class="tc"><a style={{ "text-decoration": "none", "color": "blue" }}
+      href="https://docs.google.com/document/d/1pLLhXRfOR837rEYpH5pdamhNvoVjwvRY2Hkzw0T07is/edit?usp=sharing">
+      Paper Prototypes, Usability Testing & Digital Mockup</a></h4>
+    <h4 class="tc"><a style={{ "text-decoration": "none", "color": "blue" }}
+      href="https://docs.google.com/presentation/d/138iPg25G5Jp3nPtn2WD1kHlt91oS9FVWV9eFqt97VhM/edit?usp=sharing">
+      Presentation</a></h4>
     <h1 class="tc">Team Members</h1>
     <div class="flex justify-around">
-    <a href="https://github.com/theang66" style={{ "text-decoration": "none", "color": "blue" }}>Anh Nguyen</a>
-    <a href="https://github.com/ksievert" style={{ "text-decoration": "none", "color": "blue" }}>Katia Sievert</a>
-    <a href="https://github.com/YipingZhong" style={{ "text-decoration": "none", "color": "blue" }}>Yiping Zhong</a>
-    <a href="https://github.com/ZainMahmoodC" style={{ "text-decoration": "none", "color": "blue" }}>Zain Chaudhry</a>
+    <h4><a href="https://github.com/theang66" style={{ "text-decoration": "none", "color": "blue" }}>
+      Anh Nguyen</a></h4>
+    <h4><a href="https://github.com/ksievert" style={{ "text-decoration": "none", "color": "blue" }}>
+      Katia Sievert</a></h4>
+    <h4><a href="https://github.com/YipingZhong" style={{ "text-decoration": "none", "color": "blue" }}>
+      Yiping Zhong</a></h4>
+    <h4><a href="https://github.com/ZainMahmoodC" style={{ "text-decoration": "none", "color": "blue" }}>
+      Zain Chaudhry</a></h4>
     </div>
   </Layout>
 )
