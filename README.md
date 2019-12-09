@@ -23,5 +23,5 @@ This website is created with Gatsby. Click [here](https://www.gatsbyjs.org/tutor
 
 ## Deploy
 1. Make sure you pushed all your changes to ```dev``` branch.
-2. Run ```npm run deploy:github```.
+2. Run ```npm run deploy```.
 3. There should be changes to ```master``` branch and the website.

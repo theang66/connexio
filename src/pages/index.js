@@ -3,7 +3,6 @@ import "tachyons"
 
 import "../components/index.css"
 import "../components/layout.css"
-import AllPosts from "../components/allposts"
 
 import allPosts from "../images/AllPosts.png"
 import events from "../images/Events.png"
@@ -21,7 +20,6 @@ import video from "../images/Video.png"
 
 const IndexPage = () => (
 <div>
-<iframe style={{ "border": "none" }} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2oM40LGvmfUwIr2MDqmktP%2FConnexio%3Fnode-id%3D95%253A49%26scaling%3Dscale-down" allowfullscreen></iframe>
   <header class="b" style={{
         background: `#EE5454`,
         marginBottom: `1.45rem`,
@@ -44,7 +42,7 @@ const IndexPage = () => (
         <p>Post about your own cultural experiences using pictures, videos, or text.
           Share with other users in real-time, and include your location if you
           want your post to show up on our map.</p>
-        <AllPosts width="65%" height="75%"/>
+        <img src={allPosts} width="80%" height="75%" />
       </div>
       <div class="tc pa3">
         <code class="b">ENGAGE</code>
@@ -74,6 +72,10 @@ const IndexPage = () => (
       <img src={events} class="proto_img" height="100%" />
       <img src={newEvent} class="proto_img" height="100%" />
     </div>
+    <h1 class="tc">Demo</h1>
+    <iframe style={{ "border": "none" }} width="800" height="450"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2oM40LGvmfUwIr2MDqmktP%2FConnexio%3Fnode-id%3D95%253A49%26scaling%3Dscale-down"
+      allowfullscreen></iframe>
     <h1 class="tc">Video Storyboard</h1>
     <div class="tc">
       <img src={video} class="proto_img" />
