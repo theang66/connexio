@@ -4,19 +4,19 @@ import "tachyons"
 import "../components/index.css"
 import "../components/layout.css"
 
-import allPosts from "../images/AllPosts.png"
-import events from "../images/Events.png"
-import map from "../images/Map.png"
-import newPost from "../images/NewPost.png"
-import newEvent from "../images/NewEvent.png"
-import discussion from "../images/Discussion.png"
-import firstFeed from "../images/FirstFeed.png"
-import firstEvents from "../images/FirstEvents.png"
-import secondMenu from "../images/SecondMenu.png"
-import secondEvents from "../images/SecondEvents.png"
-import secondPoll from "../images/SecondPoll.png"
-import secondMap from "../images/SecondMap.png"
-import video from "../images/Video.png"
+import allPosts from "../../static/AllPosts.png"
+import events from "../../static/Events.png"
+import map from "../../static/Map.png"
+import newPost from "../../static/NewPost.png"
+import newEvent from "../../static/NewEvent.png"
+import discussion from "../../static/Discussion.png"
+import firstFeed from "../../static/FirstFeed.png"
+import firstEvents from "../../static/FirstEvents.png"
+import secondMenu from "../../static/SecondMenu.png"
+import secondEvents from "../../static/SecondEvents.png"
+import secondPoll from "../../static/SecondPoll.png"
+import secondMap from "../../static/SecondMap.png"
+import video from "../../static/Video.png"
 
 const IndexPage = () => (
   <div>
@@ -88,7 +88,7 @@ const IndexPage = () => (
       <div class="tc">
         <code class="b">Second Paper Prototype</code>
         <p>We made substantial changes to our initial paper prototype to both address design issues
-          from usability testing and differentiate the app from existing platforms like Facebook.</p>
+          from usability testing and differentiate the app from existing platforms.</p>
         <div class="carousel">
           <img src={secondMenu} class="proto_img" height="480px" />
           <img src={secondEvents} class="proto_img" height="480px" />
