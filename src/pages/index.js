@@ -3,20 +3,21 @@ import "tachyons"
 
 import "../components/index.css"
 import "../components/layout.css"
+import AllPosts from "../components/allposts"
 
-import allPosts from "../../static/AllPosts.png"
-import events from "../../static/Events.png"
-import map from "../../static/Map.png"
-import newPost from "../../static/NewPost.png"
-import newEvent from "../../static/NewEvent.png"
-import discussion from "../../static/Discussion.png"
-import firstFeed from "../../static/FirstFeed.png"
-import firstEvents from "../../static/FirstEvents.png"
-import secondMenu from "../../static/SecondMenu.png"
-import secondEvents from "../../static/SecondEvents.png"
-import secondPoll from "../../static/SecondPoll.png"
-import secondMap from "../../static/SecondMap.png"
-import video from "../../static/Video.png"
+import allPosts from "../images/AllPosts.png"
+import events from "../images/Events.png"
+import map from "../images/Map.png"
+import newPost from "../images/NewPost.png"
+import newEvent from "../images/NewEvent.png"
+import discussion from "../images/Discussion.png"
+import firstFeed from "../images/FirstFeed.png"
+import firstEvents from "../images/FirstEvents.png"
+import secondMenu from "../images/SecondMenu.png"
+import secondEvents from "../images/SecondEvents.png"
+import secondPoll from "../images/SecondPoll.png"
+import secondMap from "../images/SecondMap.png"
+import video from "../images/Video.png"
 
 const IndexPage = () => (
 <div>
@@ -43,7 +44,7 @@ const IndexPage = () => (
         <p>Post about your own cultural experiences using pictures, videos, or text.
           Share with other users in real-time, and include your location if you
           want your post to show up on our map.</p>
-        <img src={allPosts} width="80%" height="75%" />
+        <AllPosts width="65%" height="75%"/>
       </div>
       <div class="tc pa3">
         <code class="b">ENGAGE</code>
