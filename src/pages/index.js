@@ -1,8 +1,6 @@
 import React from "react"
 import "tachyons"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import "../components/index.css"
 import "../components/layout.css"
 
@@ -36,7 +34,6 @@ const IndexPage = () => (
                   maxWidth: 960,
                   padding: `0px 1.0875rem 1.45rem`,
                   paddingTop: 0, }}>
-      <SEO title="Connexio" />
       <h1 class="tc">Overview</h1>
       <p class="tc">Connexio provides a platform for <b>cultural learning</b> on Macalester campus.</p>
       <div class="flex justify-around">
