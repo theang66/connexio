@@ -20,7 +20,7 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/`,
+        start_url: `/connexio`,
         background_color: `#EE5454`,
         theme_color: `#EE5454`,
         display: `minimal-ui`,
