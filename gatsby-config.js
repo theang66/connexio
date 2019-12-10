@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/connexio`,
   siteMetadata: {
     title: `Connexio`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
@@ -20,7 +21,7 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/connexio`,
+        start_url: `/`,
         background_color: `#EE5454`,
         theme_color: `#EE5454`,
         display: `minimal-ui`,
