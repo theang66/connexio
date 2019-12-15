@@ -18,7 +18,6 @@ import secondMenu from "../images/SecondMenu.png"
 import secondEvents from "../images/SecondEvents.png"
 import secondPoll from "../images/SecondPoll.png"
 import secondMap from "../images/SecondMap.png"
-import video from "../images/Video.png"
 
 const IndexPage = () => (
 <div>
