@@ -49,7 +49,7 @@ const IndexPage = () => (
         <p>Post about your own cultural experiences using pictures, videos, or text.
           Share with other users in real-time, and include your location if you
           want your post to show up on our map.</p>
-        <img src={allPosts} width="80%" height="75%" alt="All Posts Screen" />
+        <img alt="All Posts Screen" src={allPosts} width="80%" height="75%" />
       </div>
       <div class="tc pa3">
         <code class="b">ENGAGE</code>
@@ -80,7 +80,8 @@ const IndexPage = () => (
       <img alt="New Event Pop-up" src={newEvent} class="proto_img" height="100%" />
     </div>
     <h1 class="tc">Demo</h1>
-    <iframe style={{ "border": "none" }} width="800" height="450" title="Connexio Demo"
+    <h3 class="tc">Try me!</h3>
+    <iframe style={{ "border": "none", "margin": "auto" }} width="900" height="450" title="Connexio Demo"
       src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2oM40LGvmfUwIr2MDqmktP%2FConnexio%3Fnode-id%3D95%253A49%26scaling%3Dscale-down"
       allowfullscreen></iframe>
     <h1 class="tc">Video Storyboard</h1>
