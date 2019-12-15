@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import "tachyons"
 
 import "../components/index.css"
@@ -20,6 +21,13 @@ import video from "../images/Video.png"
 
 const IndexPage = () => (
 <div>
+  <SEO title="Connexio Project" />
+  <Helmet>
+    <meta charSet="utf-8" />
+    <html lang="en">
+    <title>Connexio Project</title>
+    <link rel="canonical" href="https://theang66.github.io/connexio/" />
+  </Helmet>
   <header class="b" style={{
         background: `#EE5454`,
         marginBottom: `1.45rem`,
@@ -42,7 +50,7 @@ const IndexPage = () => (
         <p>Post about your own cultural experiences using pictures, videos, or text.
           Share with other users in real-time, and include your location if you
           want your post to show up on our map.</p>
-        <img src={allPosts} width="80%" height="75%" />
+        <img alt="All Posts Screen" src={allPosts} width="80%" height="75%" />
       </div>
       <div class="tc pa3">
         <code class="b">ENGAGE</code>
@@ -50,7 +58,7 @@ const IndexPage = () => (
           by creating one central calendar. Post about events happening
           in the Macalester community, and RSVP to ones
           that you're interested in.</p>
-        <img src={events} width="65%" height="75%" />
+        <img alt="Events Screen" src={events} width="65%" height="75%" />
       </div>
     </div>
     <h1 class="tc">Task 1: Post to a Feed</h1>
@@ -59,9 +67,9 @@ const IndexPage = () => (
       Posts with location (optional) will show up on the Map.
     </p>
     <div class="carousel tc">
-      <img src={allPosts} class="proto_img" height="100%" />
-      <img src={map} class="proto_img" height="100%" />
-      <img src={newPost} class="proto_img" height="100%" />
+      <img alt="All Posts Screen" src={allPosts} class="proto_img" height="100%" />
+      <img alt="Map Screen" src={map} class="proto_img" height="100%" />
+      <img alt="New Post Pop-up" src={newPost} class="proto_img" height="100%" />
     </div>
     <h1 class="tc">Task 2: Create and view events</h1>
     <p class="tc">
@@ -69,8 +77,8 @@ const IndexPage = () => (
       View event details, RSVP, and create new events.
     </p>
     <div class="carousel tc">
-      <img src={events} class="proto_img" height="100%" />
-      <img src={newEvent} class="proto_img" height="100%" />
+      <img alt="Events Screen" src={events} class="proto_img" height="100%" />
+      <img alt="New Event Pop-up" src={newEvent} class="proto_img" height="100%" />
     </div>
     <h1 class="tc">Demo</h1>
     <iframe style={{ "border": "none" }} width="800" height="450"
@@ -78,15 +86,14 @@ const IndexPage = () => (
       allowfullscreen></iframe>
     <h1 class="tc">Video Storyboard</h1>
     <div class="tc">
-      <img src={video} class="proto_img" />
     </div>
     <h1 class="tc">Design Process</h1>
     <div class="tc">
       <code class="b">First Paper Prototype</code>
       <p>Our initial paper prototype consisted of two main tabs, Feed and Events.</p>
       <div class="carousel">
-        <img src={firstFeed} class="proto_img" height="95%" />
-        <img src={firstEvents} class="proto_img" height="95%" />
+        <img alt="Initial Feed Screen" src={firstFeed} class="proto_img" height="95%" />
+        <img alt="Initial Events Screen" src={firstEvents} class="proto_img" height="95%" />
       </div>
     </div>
     <div class="tc">
@@ -94,10 +101,10 @@ const IndexPage = () => (
       <p>We made substantial changes to our initial paper prototype to both address design issues
         from usability testing and differentiate the app from existing platforms.</p>
       <div class="carousel">
-        <img src={secondMenu} class="proto_img" height="480px" />
-        <img src={secondEvents} class="proto_img" height="480px" />
-        <img src={secondPoll} class="proto_img" height="480px" />
-        <img src={secondMap} class="proto_img" height="480px" />
+        <img alt="Second Menu Screen" src={secondMenu} class="proto_img" height="480px" />
+        <img alt="Second Events Screen" src={secondEvents} class="proto_img" height="480px" />
+        <img alt="Second Poll Screen" src={secondPoll} class="proto_img" height="480px" />
+        <img alt="Second Map Screen" src={secondMap} class="proto_img" height="480px" />
       </div>
     </div>
     <div class="tc">
@@ -105,10 +112,10 @@ const IndexPage = () => (
       <p>Our final digital mockup includes the main tabs: Home (with All Posts),
         Events, Discussion, and Map.</p>
       <div class="carousel">
-        <img src={allPosts} class="proto_img" height="100%" />
-        <img src={events} class="proto_img" height="100%" />
-        <img src={discussion} class="proto_img" height="100%" />
-        <img src={map} class="proto_img" height="100%" />
+        <img alt="All Posts Screen" src={allPosts} class="proto_img" height="100%" />
+        <img alt="Events Screen" src={events} class="proto_img" height="100%" />
+        <img alt="Discussion Screen" src={discussion} class="proto_img" height="100%" />
+        <img alt="Map Screen" src={map} class="proto_img" height="100%" />
       </div>
     </div>
     <h1 class="tc">Reports and Presentation</h1>
