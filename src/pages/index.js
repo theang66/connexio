@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import "tachyons"
 
+import SEO from "../components/seo"
 import "../components/index.css"
 import "../components/layout.css"
 
@@ -24,7 +25,6 @@ const IndexPage = () => (
   <SEO title="Connexio Project" />
   <Helmet>
     <meta charSet="utf-8" />
-    <html lang="en">
     <title>Connexio Project</title>
     <link rel="canonical" href="https://theang66.github.io/connexio/" />
   </Helmet>
@@ -81,7 +81,7 @@ const IndexPage = () => (
       <img alt="New Event Pop-up" src={newEvent} class="proto_img" height="100%" />
     </div>
     <h1 class="tc">Demo</h1>
-    <iframe style={{ "border": "none" }} width="800" height="450"
+    <iframe style={{ "border": "none" }} width="800" height="450" title="Connexio Demo"
       src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2oM40LGvmfUwIr2MDqmktP%2FConnexio%3Fnode-id%3D95%253A49%26scaling%3Dscale-down"
       allowfullscreen></iframe>
     <h1 class="tc">Video Storyboard</h1>
