@@ -49,7 +49,7 @@ const IndexPage = () => (
         <p>Post about your own cultural experiences using pictures, videos, or text.
           Share with other users in real-time, and include your location if you
           want your post to show up on our map.</p>
-        <img alt="All Posts Screen" src={allPosts} width="80%" height="75%" />
+        <img src={allPosts} width="80%" height="75%" alt="All Posts Screen" />
       </div>
       <div class="tc pa3">
         <code class="b">ENGAGE</code>
