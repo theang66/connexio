@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import "tachyons"
 
 import SEO from "../components/seo"
@@ -23,9 +24,7 @@ const IndexPage = () => (
 <div>
   <SEO title="Connexio Project" />
   <Helmet>
-    <meta charSet="utf-8" />
     <title>Connexio Project</title>
-    <link rel="canonical" href="https://theang66.github.io/connexio/" />
   </Helmet>
   <header class="b" style={{
         background: `#EE5454`,
@@ -43,7 +42,7 @@ const IndexPage = () => (
                   paddingTop: 0, }}>
     <h1 class="tc">Overview</h1>
     <p class="tc">Connexio provides a platform for <b>cultural learning</b> on Macalester campus.</p>
-    <div class="flex justify-around">
+    <div class="flex">
       <div class="tc pa3">
         <code class="b">SHARE</code>
         <p>Post about your own cultural experiences using pictures, videos, or text.
@@ -60,6 +59,11 @@ const IndexPage = () => (
         <img alt="Events Screen" src={events} width="65%" height="75%" />
       </div>
     </div>
+    <h1 class="tc">Video Storyboard</h1>
+    <iframe width="100%" height="500" title="Connexio Video Storyboard"
+      style={{ "border": "none", "margin": "auto" }}
+      src="https://www.youtube.com/embed/Apnh1uLJ7yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
     <h1 class="tc">Task 1: Post to a Feed</h1>
     <p class="tc">
       Post pictures, videos, and texts to share your experiences with the Macalester community. <br />
@@ -82,42 +86,11 @@ const IndexPage = () => (
     <h1 class="tc">Demo</h1>
     <h3 class="tc">Try me!</h3>
     <iframe style={{ "border": "none", "margin": "auto" }} width="100%" height="500" title="Connexio Demo"
-      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2oM40LGvmfUwIr2MDqmktP%2FConnexio%3Fnode-id%3D95%253A49%26scaling%3Dscale-down"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2oM40LGvmfUwIr2MDqmktP%2FConnexio%3Fnode-id%3D43%253A219%26scaling%3Dscale-down"
       allowfullscreen></iframe>
-    <h1 class="tc">Video Storyboard</h1>
-    <div class="tc">
-    </div>
     <h1 class="tc">Design Process</h1>
-    <div class="tc">
-      <code class="b">First Paper Prototype</code>
-      <p>Our initial paper prototype consisted of two main tabs, Feed and Events.</p>
-      <div class="carousel">
-        <img alt="Initial Feed Screen" src={firstFeed} class="proto_img" height="95%" />
-        <img alt="Initial Events Screen" src={firstEvents} class="proto_img" height="95%" />
-      </div>
-    </div>
-    <div class="tc">
-      <code class="b">Second Paper Prototype</code>
-      <p>We made substantial changes to our initial paper prototype to both address design issues
-        from usability testing and differentiate the app from existing platforms.</p>
-      <div class="carousel">
-        <img alt="Second Menu Screen" src={secondMenu} class="proto_img" height="480px" />
-        <img alt="Second Events Screen" src={secondEvents} class="proto_img" height="480px" />
-        <img alt="Second Poll Screen" src={secondPoll} class="proto_img" height="480px" />
-        <img alt="Second Map Screen" src={secondMap} class="proto_img" height="480px" />
-      </div>
-    </div>
-    <div class="tc">
-      <code class="b">Digital Mockup</code>
-      <p>Our final digital mockup includes the main tabs: Home (with All Posts),
-        Events, Discussion, and Map.</p>
-      <div class="carousel">
-        <img alt="All Posts Screen" src={allPosts} class="proto_img" height="100%" />
-        <img alt="Events Screen" src={events} class="proto_img" height="100%" />
-        <img alt="Discussion Screen" src={discussion} class="proto_img" height="100%" />
-        <img alt="Map Screen" src={map} class="proto_img" height="100%" />
-      </div>
-    </div>
+    <h4 class="tc">Click <Link to="/design" style={{ "text-decoration": "none", "color": "blue" }}>here </Link>
+      to learn more about our design process!</h4>
     <h1 class="tc">Reports and Presentation</h1>
     <h4 class="tc"><a style={{ "text-decoration": "none", "color": "blue" }} href="https://docs.google.com/document/d/1vYLuzBvjI3ywbHjIGiuoUdng9jSnKi3kZDfq1z-rm6o/edit?usp=sharing">
         Interviews, Task Analysis & Storyboards</a></h4>
