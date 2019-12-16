@@ -41,7 +41,10 @@ const IndexPage = () => (
                   padding: `0px 1.0875rem 1.45rem`,
                   paddingTop: 0, }}>
     <h1 class="tc">Overview</h1>
-    <p class="tc">Connexio provides a platform for <b>cultural learning</b> on Macalester campus.</p>
+    <p class="tc"><b>Cultural learning at the touch of a button.</b> <br></br>
+    Connexio provides a platform for cross-cultural interactions on Macalester campus.
+    No more disparate email lists or echo chambers. Find out about upcoming cultural events
+    and the cultural stories of your peers all in one place.</p>
     <div class="flex">
       <div class="tc pa3">
         <code class="b">SHARE</code>
